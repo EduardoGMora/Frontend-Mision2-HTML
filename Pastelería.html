@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería</title>
+    <style>
+        * {
+            box-sizing:content-box;
+        }
+        header {
+            background-color: rgb(243, 161, 250);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pastelería Gómez</h1>
+    <nav>
+        <a href="Pastelería.html">Inicio</a>
+        <a href="#">Ordena aquí</a>
+        <a href="#">Sabores</a>
+    </nav>
+    <img src="pastel.jpg" style="width: 200px;height: 200px;">
+    <p>!Los mejores pasteles de méxico! :D </p>
+
+    <section>
+        <h2>Ubicados en: </h2>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-search" width="60" height="60" viewBox="0 0 24 24" stroke-width="1" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v10"></path>
+            <path d="M9 4v13"></path>
+            <path d="M15 7v5"></path>
+            <circle cx="16.5" cy="17.5" r="2.5"></circle>
+            <path d="M18.5 19.5l2.5 2.5"></path>
+        </svg>
+        <p>Guadalajara, Jalisco. México</p>
+        <a href="#">Contáctanos</a><br>
+    </section>
+
+    <section>
+        <h2>Sabores de pastel</h2>
+        <h3>Chocolate</h3>
+        <p>precio: $165</p><br>
+        <h3>Red Velvet</h3>
+        <p>precio: $195</p><br>
+        <h3>Vainilla</h3>
+        <p>precio: $150</p><br>
+        <h3>Zanahoria</h3>
+        <p>precio: $150</p><br>
+        <h3>Coco con nuez</h3>
+        <p>precio: $200</p><br>
+        <h3>Fresa</h3>
+        <p>precio: $175</p><br>
+        <h3>Café-Moka</h3>
+        <p>precio: $185</p><br>
+    </section>
+
+    <section>
+        <h2>Adornos y decoraciones de pastel</h2>
+        <h3>Decoraciones en 3D</h3>
+        <p>se caracteriza por tener una cobertura con una ganache, generalmente de chocolate, goteando por los bordes de la torta, acompañado de ingredientes y accesorios comestibles</p>
+        <p>Esta recomendado para todo tipo de ocaciones</p>
+        <h3>Decoraciones florales</h3>
+        <p>Son una opción por excelencia cuando de sencillez, calidez, delicadeza y belleza se trata. Dan un toque orgánico, natural y fresco a la preparación y, en algunas ocasiones, de romanticismo.</p>
+        <h3>Drip cakes</h3>
+        <p>Es una decoración en tendencia que viene tomando fuerza desde el 2020 y que se caracteriza por tener una cobertura con una ganache, generalmente de chocolate, goteando por los bordes de la torta, 
+        acompañado de ingredientes y accesorios comestibles como los que mencionamos en el ítem anterior.</p>
+        <h3>Con relleno</h3>
+        <p>aquello que acompaña a la masa del bizcocho, los cuales dan diferentes matices o texturas y potencializan los sabores de la preparación 
+        fusionándose con el resto de los ingredientes</p>
+        <h3>Con merengue</h3>
+        <p>Elaborados a partir de claras de huevo a punto de nieve y azúcar, que a la hora de batirse da una consistencia esponjosa, ligera, suave y dulce</p>
+    </section>
+
+    <fieldset>
+        <section>
+            <h2>HAZ TU PEDIDO</h2>
+            <h3>SELECCIONA TU SABOR</h3>
+            <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate">
+            <label for="sabor1">Chocolate</label>
+            <input type="checkbox" id="sabor2" name="sabor2" value="Red Velvet">
+            <label for="sabor2">Red Velvet</label><br>
+            <input type="checkbox" id="sabor3" name="sabor3" value="Vainilla">
+            <label for="sabor3">Vainilla</label>
+            <input type="checkbox" id="sabor4" name="sabor4" value="Zanahoria">
+            <label for="sabor4">Zanahoria</label><br>
+            <input type="checkbox" id="sabor5" name="sabor5" value="Coco con Nuez">
+            <label for="sabor5">Coco con Nuez</label>
+            <input type="checkbox" id="sabor6" name="sabor6" value="Fresa">
+            <label for="sabor6">Fresa</label><br>
+            <input type="checkbox" id="sabor7" name="sabor7" value="Café-Moka">
+            <label for="sabor7">Café-Moka</label><br>
+        </section>
+        <section>
+            <h3>SELECCIONA TU DECORACIÓN O ADORNO</h3>
+            <input type="checkbox" id="deco1" name="deco1" value="3d">
+            <label for="deco1">Decoración 3D</label><br>
+            <input type="checkbox" id="deco2" name="deco2" value="floral">
+            <label for="deco2">Decoraciones florales</label><br>
+            <input type="checkbox" id="deco3" name="deco3" value="Drip">
+            <label for="deco3">Drip cakes</label><br>
+            <input type="checkbox" id="deco4" name="deco4" value="relleno">
+            <label for="deco4">Con relleno</label><br>
+            <input type="checkbox" id="deco5" name="deco5" value="merengue">
+            <label for="deco5">Con merengue</label><br>
+        </section>
+        <section>
+            <h3>Datos del cliente</h3>
+            <label for="nombre1">Nombre del cliente</label><br>
+            <input type="text" id="nombre1" name="nombre1" ><br><br>
+            <label for="correo1">Correo del cliente</label><br>
+            <input type="email" id="correo1" name="correo1" ><br><br>
+            <label for="núm1">Número de Teléfono</label><br>
+            <input type="tel" id="núm1" name="núm1" maxlength="10"><br><br>
+            <label for="desc">Descripción general del pastel </label><br>
+            <textarea id="desc" name="desc"rows="5" cols="33"></textarea><br><br>
+            <input type="submit" value="Ordenar">
+        </section>
+    </fieldset>
+    
+    <footer>Pastelería Gómez</footer>
+</body>
+</html>
